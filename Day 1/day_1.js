@@ -16,7 +16,7 @@ var cups_of_flour = Flour / (3/2)
 
 // Vanilla Extract conversion
 
-var tsp_of_vanilla_extract = vanilla_extract 
+var tsp_of_vanilla_extract = vanilla_extract / 3 
 
 
 
@@ -36,22 +36,33 @@ if (cups_of_flour >= 1) {
 if (tsp_of_vanilla_extract >= 1) {
     var amount_of_vanilla_extract = Math.floor(tsp_of_vanilla_extract)
 }
-
+var number_of_cookies = 1
 if (amount_of_sugar > 1 && amount_of_chocolate_chip && amount_of_candy_canes && amount_of_flour && amount_of_vanilla_extract > 1) {
+    if (amount_of_sugar >= number_of_cookies) {
+        var number_of_cookies = amount_of_sugar
+    } 
+    if (amount_of_chocolate_chip < number_of_cookies) {
+        
+        var number_of_cookies = amount_of_chocolate_chip
+    }
+
+    if (amount_of_candy_canes < number_of_cookies){
+        var number_of_cookies = amount_of_candy_canes
+    }
+    if (amount_of_flour < number_of_cookies) {
+        var number_of_cookies = amount_of_flour
+    }
+    if (amount_of_vanilla_extract < number_of_cookies){
+        var number_of_cookies = amount_of_vanilla_extract
+    }
+
     
-    var output = "Tis works"
+    
+    var output = "You can make " + number_of_cookies + " cookies!!!!!!!!"
 } else  {
     var output = "Tis does not work"
 }
 
-
-
-
-console.log(cups_of_sugar)
-console.log(cups_of_chocolate_chip)
-console.log(cups_of_candy_canes)
-console.log(cups_of_flour)
-console.log(amount_of_vanilla_extract)
 console.log(output)
 
 
