@@ -60,7 +60,7 @@ if (amount_of_sugar > 1 && amount_of_chocolate_chip && amount_of_candy_canes && 
     
     var output = "You can make " + number_of_cookies + " cookies!!!!!!!!"
 } else  {
-    var output = "Tis does not work"
+    var output = "No cookies for you!"
 }
 
 console.log(output)

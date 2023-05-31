@@ -20,11 +20,31 @@ You are also accounting for if the user does not input any values at all. For ex
 
 
 
-### Input:
+
 
 ```
+Input:
 
+Example 1:
+Sugar: 5
+Chocolate Chip: 3 
+Candy Cane: 15
+Flour: 6
+Vanilla: 9
 
+Example 2: 
+
+Sugar: 0
+Chocolate Chip: 2
+Candy Cane: 67
+Flour: 97
+Vanilla: 17
+-----------------------------------------------------------
+Output: 
+
+Example 1: You can make 3 cookies!!!!!!!!
+
+Example 2: No cookies for you!
 ```
 
 
