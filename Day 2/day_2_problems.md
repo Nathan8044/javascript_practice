@@ -149,3 +149,34 @@ Difference between a For Loop and While Loop and when to use them:
 
 ```
 
+## Problem 1 Javascript & Python
+
+**Problem provided by NYU** :)
+
+
+
+Write a program that reads a positive integer (say, n), and prints the first n odd numbers (don't use n as a variable
+name). Write two versions in the file, one using a for-loop, and one using a while-loop. For example, one
+execution could look like this:
+
+```
+Please enter a positive integer: 5
+
+Executing while-loop...
+1
+3
+5
+7
+9
+
+Executing for-loop...
+1
+3
+5
+7
+9
+
+Please note that the the prompt for Javascript will look different than for Python. The example input and output above is for Python. For Javascript, a prompt message will pop up on your browser. 
+
+
+```
