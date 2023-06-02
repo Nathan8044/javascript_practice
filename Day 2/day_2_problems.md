@@ -1,12 +1,10 @@
-# Practice Problems for Javascript & Python Day 2 
+# Day 2 Problems for Javascript and Python
 
+For Day 2, we will be using what we learned in conditional statements and adding a larger concept to them. Today's lesson will revolve around loops. 
 
+Loops are used to repeat repetive taks that developers and users would not want to maually due themselves over and over again. 
 
-In day 2, using the conditional statements and arithmetic learned in the first day. To accelerate the learning process we will jump to using function and getting functions to work in conjunction with a math arithmetic problem. 
-
-The point of this lesson is to understand the different scopes, for this day we will be looking at the global and functions scope to keep things more simple. The other scopes are included within this section if needed, but they will be looked over more in depth. 
-
-Some Review before we get started: 
+There will be some review located in this sections. It will consist of conditional statements and loops. 
 
 ```
 Using if statements
@@ -46,32 +44,108 @@ Using if, else if, & else statements
 
     }
 
-Writing Functions in Javascript: 
+-------------------------------------------------------------------------------------------------
+Using Loops:
 
+Different types of loops 
 
-function function_name([parameters]) {
+- for: loops through a block of code a number of times 
 
-    // code to be executed 
+- for/in: loops through the properties of an object 
 
-}
+- for/of: loops throughb the values of an iterable object
 
-Example of functions: 
+- while: loops through a block of code while a specified condition is true 
 
-    functions Math(x, y) {
+- do/while: also loops through a block of code while a specified condition is true 
 
-        var result = x + y
+Using the For Loop: 
 
-        return result
+    for (intial conditon; condtional expression; counter) {
 
+        ...more statements
 
     }
 
-    console.log(result)
+    Ex. 
+
+        for (let i=0; i<5; i++) {
+
+            console.log("Hello World")
+
+        }
+
+        //Will log Hello world 5 times
+
+Using the For in Loop: 
+
+    for (key in object) {
+
+        ...more statements
+    }
+
+    Ex. 
+    const colors = {Nathan: Green, Sam: Yellow, Ren: Blue};
+
+    for (let fav_colors in colors) {
+
+        console.log(colors[fav_colors])
+    }
+
+    //will log only the colors of the people not their names. It indexes a dictionary. 
+
+    ** Note that dictionary's and list's have not been reviewed because there is an expected  
+       knowledge of coding. Lesson for more specific coding concepts will be introduced. You can do a quick google search for lists and dictionarys. Or click this link. 
+
+       https://www.geeksforgeeks.org/difference-between-list-and-dictionary-in-python/
+
+Using the For or loop: 
 
 
+    for (variable of iterable item){
+        ...more statements
+    }
 
+    Ex. 
+
+        const colors = [Green, Yellow, Blue]; 
+
+        for (let fav_color of colors) {
+
+            console.log(fav_colors)
+        }
+
+        // Will log each color one by one in the list
+
+Using a While Loop: 
+
+    while (conditon) {
+
+        ...more statements
+        counter must also be included
+    }
+
+    Ex.
+
+        while (i<10) {
+
+            console.log("Hello World")
+            i++;
+        }
+
+        Note: For a while loop you must include the counter in the end. This is because if you do not  
+        include the counter the loop will run forever and in your code you do not want that. 
+
+
+Difference between a For Loop and While Loop and when to use them: 
+
+    If you have some experience with Python you know that it is best to use a For loop when you know the 
+    end that you are want to reach. This means if you have a dictionary, you know that the start of the 
+    dictionary and the end of it is all you want to iterate over. 
+
+    A while loop is used for when you don't know the end, or don't have those specfic ranges like you 
+    would see in the For loop. 
 
 
 ```
 
-## Problem 1
