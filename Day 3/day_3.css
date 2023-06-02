@@ -2,4 +2,25 @@ h1 {
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
+    background-color: silver;
+}
+
+.item {
+
+    color: purple; 
+}
+
+button {
+
+    color: green;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+
+    width: 100px;
+    height: 100px;
+
 }

@@ -46,6 +46,33 @@ Using if, else if, & else statements
 
     }
 
+Loops Review:
+
+
+    for (intial conditon; condtional expression; counter) {
+
+        ...more statements
+
+    }
+
+    for (key in object) {
+
+        ...more statements
+    }
+
+    for (variable of iterable item) {
+
+        ...more statements
+    }
+
+
+    while (conditon) {
+
+        ...more statements
+
+        counter must also be included
+    }
+
 Writing Functions in Javascript: 
 
 
@@ -66,7 +93,7 @@ Example of functions:
 
     }
 
-    console.log(result)
+    console.log(Math(5,6))
 
 
 
@@ -75,3 +102,15 @@ Example of functions:
 ```
 
 ## Problem 1
+
+Congratulations! You are a recent software developer for Melodic Tools. For background, Melodic tools makes and sells musical instruments online. You have been hired to make a a very simple website that allows the user to click a button on an instrument that they like and purchase it. 
+
+The website should behave like the following:
+
+User clicks, for example, bass guitar and a alert message pops stating that the purchase has been made and the transaction has been completed. 
+
+![example](images/day_3_1.png)
+
+**Do not mind test text at the top. As long as your code outputs that the Purchase has been succesful, that is all that counts for this problem**
+
+Feel free to add CSS and more style to this problem there is freedom for all problem but have fun. 

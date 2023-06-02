@@ -1,5 +1,4 @@
-
-
+// Description: This file contains the code for the day 2 assignment
 var user_input = prompt("Please enter a positive integer: ")
 
 var counter = 0 

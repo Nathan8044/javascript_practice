@@ -4,11 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="day_3.css">
     <title>Day 3 Javascript</title>
 </head>
 <body>
     <h1>This is day 3 of the Javascript Course. Access the inspect panel to see the console</h1>
-    <script src="script.js"></script>
+    
+    <div class="item" id="bass_guitar">
+        <img src="images/bass_guitar.png" alt="Bass Guitar">
+        <button onclick="alert(purchase('Bass Guitar'))">Purchase Bass Guitar</button>
+    </div>
+
+    <div class="item" id="drums">
+        <button onclick="alert(purchase('Drums'))">Purchase Drums</button>  
+    </div>
+
+    <div class="item" id="piano">
+        <button onclick="alert(purchase('Piano'))">Piano</button>  
+    </div>
+
+    
+    <script src="day_3.js"></script>
 </body>
 </html>
