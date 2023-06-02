@@ -114,3 +114,5 @@ User clicks, for example, bass guitar and a alert message pops stating that the 
 **Do not mind test text at the top. As long as your code outputs that the Purchase has been succesful, that is all that counts for this problem**
 
 Feel free to add CSS and more style to this problem there is freedom for all problem but have fun. 
+
+## Problem 2 . . . Coming Soon :)
