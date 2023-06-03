@@ -38,5 +38,5 @@ You are a game developer and want to develop a matching game. You will need 9 bu
 
 For when the match is a tie, if the computer picked number subtracted from your number is less than 0, then it is a tie. If not you win. 
 
-You must also keep track of the score using an Object. In the object you must include the wins, losses, and ties. 
+You must also keep track of the score using an Object. In the object you must include the wins, losses, and ties. All of this information must be alerted to the user. 
 
