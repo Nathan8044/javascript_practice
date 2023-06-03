@@ -3,3 +3,21 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
 }
+
+
+button {
+
+
+    margin: 10px;
+}
+
+.row_1 {
+
+    float: left;
+
+}
+
+.row_2 {
+
+    float: left;
+}
