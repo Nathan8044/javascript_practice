@@ -1,0 +1,17 @@
+.items {
+    margin: 10px;
+    width: 100px;
+
+}
+
+.total {
+
+    float: left;
+    font-size: 20px;
+}
+
+#final_price {
+
+    margin-left: 5px;
+
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 Javascript Practice</title>
+    <link rel="stylesheet" href="day_5.css">
+</head>
+<body>
+    <h1>Day 5 Fashion Website Problem</h1>
+    <div class="items">
+        <button id="bag" onclick=" add_price(15)">Purchase Bag</button>
+        <p>$15</p>
+    </div>
+    <div class="items">
+        <button id="shirt" onclick=" add_price(30)">Purchase Shirt</button>
+        <p>$30</p>
+    </div>
+    <div class="items">
+        <button id="pants" onclick=" add_price(100)">Purchase Pants</button>
+        <p>$100</p>
+    </div>
+    <div class="items">
+        <button id="shoes" onclick=" add_price(120)">Purchase Shoes</button>
+        <p>$120</p>
+    </div>
+    <div class="items">
+        <button id="submit_button" onclick=" reset_price()">Purchase All Items</button>
+    </div>
+    <p class="total">Total Price:</p>
+    <p class="total" id="final_price">0</p>
+
+
+    <script src="day_5.js"></script>
+</body>
+</html>
